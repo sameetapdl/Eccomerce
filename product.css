@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    background: darkgrey;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    max-height: 200px;
+    
+}
+.logo{
+    font-size: 20px;
+    color: rgb(21, 68, 172);
+    font-weight: 600;
+    transition: 0.3s ease;
+     }
+     .logo:hover{
+        color: cadetblue;
+        text-shadow: 0 0 20px cadetblue,
+                    0 0 40px cadetblue;
+
+     }
+     .navbar{
+        font-size: medium;
+        color: rgb(136, 12, 63);
+        font-weight: 300;
+        border-bottom: 3px solid thick;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+        .navbar a:hover
+        .navbar a:active{
+            color: cadetblue;
+            text-shadow: 0 0 20px cadetblue,
+                    0 0 40px cadetblue;body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head {
+    background-color: #f8bbd0;
+    color: #fff;
+   padding-top: 50px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.products .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-item h2 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.product-item .price {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-item .btn {
+    background-color: #e91e63;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-item .btn:hover {
+    background-color: #d81b60;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .contact-info, .footer .social-media {
+    margin: 10px 0;
+}
+
+.footer .contact-info p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
+
+.footer .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-media a {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-media a:hover {
+    color: #ff9800;
+}
+
+.footer .copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .products .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-item {
+        width: 40%;
+        margin: 10px 0;
+    }
+
+    .footer .contact-info p {
+        font-size:14px;
+    }
+}

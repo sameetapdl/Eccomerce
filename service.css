@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding:20px 10%;
+    background: darkgrey;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    max-height: 200px;
+    
+}
+.logo{
+    font-size: 20px;
+    color: rgb(21, 68, 172);
+    font-weight: 600;
+    transition: 0.3s ease;
+     }
+     .logo:hover{
+        color: cadetblue;
+        text-shadow: 0 0 20px cadetblue,
+                    0 0 40px cadetblue;
+
+     }
+     .navbar{
+        font-size: medium;
+        color: rgb(136, 12, 63);
+        font-weight: 300;
+        border-bottom: 3px solid thick;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+        .navbar a:hover
+        .navbar a:active{
+            color: cadetblue;
+            text-shadow: 0 0 20px cadetblue,
+                    0 0 40px cadetblue;
+             }
+             body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f9f9f9;
+                color: #333;
+            }
+            
+            .head {
+                background-color: #0073e6;
+                color: white;
+                text-align: center;
+                padding: 1em 0;
+            }
+            
+            main {
+                background-color:seashell;
+                padding: 2em;
+            }
+            
+            .product {
+                background-color: rgb(173, 163, 66);
+                padding: 1em;
+                margin-bottom: 2em;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            
+            .product img {
+                width: 20%;
+                border-radius: 60px;
+
+            }
+            
+            .reviews {
+                background-color: rgb(63, 61, 61);
+                padding: 1em;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                color: white;
+            }
+            
+            .review {
+                margin-bottom: 1.5em;
+            }
+            
+            .review h4 {
+                margin: 0 0 0.5em;
+                color: #0073e6;
+            }
+            
+            .review-text {
+                margin: 0;
+            }
+            
+            .footer {
+                background-color: #7a7474;
+                color: rgb(24, 23, 23);
+                text-align: center;
+                padding: 1em 0;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+            
